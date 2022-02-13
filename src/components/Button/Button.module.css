@@ -1,0 +1,19 @@
+.btnPulse:after {
+  color: black;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  box-shadow: 0 0 10px 10px currentColor;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnPulse:active:after {
+  box-shadow: 0 0 0 0 currentColor;
+  @apply rounded-sm;
+  opacity: 0.3;
+  transition: 0s;
+}

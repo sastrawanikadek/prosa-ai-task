@@ -1,0 +1,32 @@
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.ripple {
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 0.8s;
+}
+
+.ripple:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  @apply rounded-full;
+  background-color: currentColor;
+  opacity: 0.4;
+}

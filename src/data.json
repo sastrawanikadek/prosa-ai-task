@@ -1,0 +1,66 @@
+[
+  {
+    "issue_id": "issue-1",
+    "title": "Improve accuracy of voice-to-text model",
+    "assignee": "Agung",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Research"]
+  },
+  {
+    "issue_id": "issue-2",
+    "title": "Create API to load user info from database",
+    "assignee": "Bondan",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Backend"]
+  },
+  {
+    "issue_id": "issue-3",
+    "title": "Two-factor authentication to make private",
+    "assignee": "Citra",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Design"]
+  },
+  {
+    "issue_id": "issue-4",
+    "title": "Consume user profile API",
+    "assignee": "Destina",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Frontend"]
+  },
+  {
+    "issue_id": "issue-5",
+    "title": "Tune hyperparameters of deep learning model",
+    "assignee": "Erlangga",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Research"]
+  },
+  {
+    "issue_id": "issue-6",
+    "title": "Redesign dashboard UI",
+    "assignee": "Fafnir",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Design"]
+  },
+  {
+    "issue_id": "issue-7",
+    "title": "Implement JWT authentication",
+    "assignee": "Guntur",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Backend"]
+  },
+  {
+    "issue_id": "issue-8",
+    "title": "Submit research paper",
+    "assignee": "Herarld",
+    "start_date": "2022-02-13",
+    "end_date": "2022-02-15",
+    "tags": ["Research"]
+  }
+]
